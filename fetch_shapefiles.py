@@ -34,7 +34,7 @@ from os.path import isdir, join, normpath, split
 from __init__ import (DOWNLOAD_DIR, EXTRACT_DIR, STATE_ABBREV_LIST, \
     GEO_TYPES_LIST, DISABLE_AUTO_DOWNLOADS, get_fips_code_for_state)
 
-FTP_HOME = 'ftp://ftp2.census.gov/geo/tiger/TIGER2012/'
+FTP_HOME = 'ftp://ftp2.census.gov/geo/tiger/TIGER2014/'
 
 
 def get_filename_list_from_ftp(target, state):
